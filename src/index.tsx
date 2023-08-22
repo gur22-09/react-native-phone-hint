@@ -17,6 +17,6 @@ const PhoneHint = NativeModules.PhoneHint
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return PhoneHint.multiply(a, b);
+export async function initPhoneNumberHint(): Promise<string> {
+  return PhoneHint.initPhoneNumberHint();
 }

@@ -11,11 +11,11 @@ npm install react-native-phone-hint
 ## Usage
 
 ```js
-import { multiply } from 'react-native-phone-hint';
+import { initPhoneNumberHint } from 'react-native-phone-hint';
 
 // ...
 
-const result = await multiply(3, 7);
+const result = await initPhoneNumberHint();
 ```
 
 ## Contributing
