@@ -42,6 +42,8 @@ class PhoneHintModule(val reactContext: ReactApplicationContext) :
               }catch (err: Exception) {
                   promise!!.reject(PHONE_SELECTOR_ERROR);
               }
+            } else {
+              promise!!.reject(PHONE_SELECTOR_ERROR);
             }
           }
         }
